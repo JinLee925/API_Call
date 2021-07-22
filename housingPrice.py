@@ -20,6 +20,3 @@ def HousingPrice(pnu, stdrYear):
     jsonString = json.loads(json.dumps(xmltodict.parse(response_body), ensure_ascii=False))
     result = jsonString['response']['fields']['field']
     return result
-
-
-print(HousingPrice(1111016700100200000, 2020))

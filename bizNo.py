@@ -23,5 +23,3 @@ def getbiz(number):
         return data[0]['tax_type']
     else:
         return "사업자등록번호 '" + data[0]['b_no'] + "'은 " + data[0]['tax_type'] + "입니다."
-
-print(getbiz(1048186269))
